@@ -82,6 +82,14 @@
         (name "L2" (effects (font (size 1.27 1.27))))
         (number "9" (effects (font (size 1.27 1.27))))
       )
+      (pin passive line (at -12.7 12.7 0) (length 2.54) hide
+        (name "VIN" (effects (font (size 1.27 1.27))))
+        (number "TIE1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 12.7 12.7 180) (length 2.54) hide
+        (name "VOUT" (effects (font (size 1.27 1.27))))
+        (number "TIE2" (effects (font (size 1.27 1.27))))
+      )
     )
   )
 )
